@@ -1,0 +1,285 @@
+@font-face {
+	font-family: headerFont;
+	src: url(LEMONMILK-Regular.otf) ;
+}
+
+@font-face {
+	font-family: menuFont;
+	src: url(PlastoTrial-Regular.otf) ;
+}
+
+@font-face {
+	font-family: bodyFont;
+	src: url(Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+	font-family: bodyFontItalic;
+	src: url(Roboto-BoldCondensedItalic.ttf);
+}
+
+body {
+	background-color: lightpink;
+	margin: 50px;
+	padding-bottom: 50px;
+}
+
+#logo {
+	width: 50px;
+	display: inline;
+	margin: 0;
+}
+
+#header {
+	font-family: headerFont;
+	color: mediumseagreen;
+	font-size: 48px;
+	display: inline;
+}
+
+.partheader {
+	display: inline;
+}
+
+#menu {
+	font-family: menuFont;
+	display: inline;
+	padding-left: 350px;
+}
+
+.nav {
+	padding: 10px;
+}
+
+#menu a:link, a:visited {
+	color: mediumseagreen;
+	text-decoration: none;
+}
+
+#menu a:hover, a:active {
+	color: floralwhite;
+	text-decoration: underline;
+}
+
+
+
+/*Take Action Page*/
+
+.collageText {
+	position: relative;
+	text-align: center;
+	font-family: headerFont;
+	font-size: 100px;
+	color: floralwhite;
+
+}
+
+#collage {
+	padding: 50px;
+	width: 80%;
+	border-radius: 5px;
+}
+
+.bigtext {
+	position: absolute;
+	top: 580px;
+	left: 200px;
+	background-color: mediumseagreen;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#bodyAction{
+	text-align: justify;
+	font-family: bodyFont;
+	font-size: 28px;
+	color: floralwhite;
+
+}
+
+.article {
+	margin: 40px;
+	display: inline-block;
+	width: 44%;
+	float: left;
+}
+
+.helpHeader1{
+	color: deeppink;
+}
+
+.helpHeader{
+	color: mediumseagreen;
+}
+
+.help {
+	margin: 40px;
+	display: inline-block;
+	width: 40%;
+	float: right;
+}
+
+
+
+
+/*Home Page*/
+
+#HomeP {
+	font-family: bodyFont;
+	color: floralwhite;
+	font-size: 32px;
+	text-align: center;
+	padding: 25px;
+}
+
+#wordsP {
+	color: deeppink;
+}
+
+.allCaptions {
+	display: block;
+}
+
+.caption {
+	color: floralwhite;
+	font-family: headerFont;
+	position: relative;
+	padding: 50px;
+}
+
+.partCaption {
+	display: block;
+	color: deeppink;
+}
+
+
+#top1 {
+	top: 0;
+}
+
+#top2 {
+	top: 250px;
+}
+
+#top3 {
+	top: 625px;
+}
+
+.cap1 {
+	font-size: 72px;
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	background-color: mediumseagreen;
+	border-radius: 10px;
+	padding: 10px;
+	width: 43%;
+}
+
+.cap2 {
+	position: absolute;
+	font-family: bodyFont;
+	text-align: justify;
+	font-size: 24px;
+	display: inline-block;
+	border-style: solid;
+	border-color: mediumseagreen;
+	border-radius: 10px;
+	border-width: 5px;
+	padding: 10px;
+	width: 43%;
+}
+
+#left {
+	left: 50px;
+}
+
+#right {
+	right: 50px;
+}
+
+#italic {
+	font-family: bodyFontItalic;
+}
+
+
+/*Resources Page*/
+
+#resLink a:link, a:visited {
+	color: mediumseagreen;
+	text-decoration: none;
+}
+
+#resLink a:hover, a:active {
+	color: floralwhite;
+	text-decoration: underline;
+}
+
+#resHeader {
+	text-align: center;
+	font-family: headerFont;
+	color: floralwhite;
+	font-size: 48px;
+	padding: 15px;
+	margin: 30px;
+	background-color: mediumseagreen;
+	border-radius: 10px;
+}
+
+.allTabs {
+	width: 100%;
+}
+
+.tabs {
+	width: 30%;
+	border-style: solid;
+	border-width: 10px;
+	border-color: deeppink;
+	border-radius: 50px;
+	margin: 20px;
+	padding: 30px;
+	height: 800px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#tabA {
+	width: 3;
+}
+
+#tabB {
+
+}
+
+#tabC {
+	right: 50px;
+}
+
+.content {
+	font-family: bodyFont;
+	font-size: 28px;
+	color: floralwhite;
+	text-align: center;
+
+}
+
+.green {
+	color: mediumseagreen;
+}
+
+.video {
+	width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
